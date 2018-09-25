@@ -1,0 +1,17 @@
+[metadata]
+name = 'dm'
+version = '0.0.1'
+description = ''
+author = 'Adam Dornford'
+author_email = 'adam.dornford@gmail.com'
+license = 'MIT/Apache-2.0'
+url = 'https://github.com/arjd4science/dm'
+
+[requires]
+python_version = ['3.6']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
